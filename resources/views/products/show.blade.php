@@ -14,7 +14,7 @@
             <div class="col-md-4">
                 <div class="card border-0 shadow-sm rounded">
                     <div class="card-body">
-                        <img src="{{ asset('/storage/products/'.$product->image) }}" class="rounded" style="width: 100%">
+                        <img src="{{ asset('storage/image/' . $product->image) }}" class="rounded" style="width: 150px">
                     </div>
                 </div>
             </div>
